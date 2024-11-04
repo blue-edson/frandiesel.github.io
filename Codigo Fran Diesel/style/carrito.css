@@ -1,0 +1,42 @@
+body {
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+}
+
+.item-carrito {
+    background-color: red;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.detalle-total {
+    background-color: #f77f00;
+    color: white;
+    border-radius: 10px;
+    text-align: right;
+}
+
+.detalle-total h4 {
+    margin-top: 10px;
+}
+
+h4 {
+    color: #003c5d;
+    font-weight: bold;
+}
+
+button {
+    border-radius: 20px;
+}
+
+.btn-outline-primary {
+    border-color: #003c5d;
+    color: #003c5d;
+}
+
+.btn-outline-primary:hover {
+    background-color: #003c5d;
+    color: white;
+}

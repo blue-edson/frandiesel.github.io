@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/carrito.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <!-- Carrito de Compras -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <h4>Carrito de Compras (3)</h4>
+            </div>
+        </div>
+
+        <!-- Items del carrito -->
+        <div class="row item-carrito align-items-center py-3">
+            <div class="col-md-2">
+                <img src="bateria.jpg" alt="Batería" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h6>Batería de arranque de 12v</h6>
+                <p>Bs. 120</p>
+            </div>
+            <div class="col-md-2">Cantidad 1</div>
+            <div class="col-md-2">Sub total Bs. 120</div>
+        </div>
+
+        <div class="row item-carrito align-items-center py-3">
+            <div class="col-md-2">
+                <img src="amortiguadores.jpg" alt="Amortiguadores" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h6>Amortiguadores</h6>
+                <p>Bs. 350</p>
+            </div>
+            <div class="col-md-2">Cantidad 1</div>
+            <div class="col-md-2">Sub total Bs. 350</div>
+        </div>
+
+        <div class="row item-carrito align-items-center py-3">
+            <div class="col-md-2">
+                <img src="filtro_aceite.jpg" alt="Filtro de aceite" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h6>Filtro de aceite</h6>
+                <p>Bs. 35</p>
+            </div>
+            <div class="col-md-2">Cantidad 1</div>
+            <div class="col-md-2">Sub total Bs. 35</div>
+        </div>
+
+        <!-- Detalle Total -->
+        <div class="row">
+            <div class="col-md-6 offset-md-6">
+                <div class="detalle-total p-3">
+                    <p>Total Bs. 505</p>
+                    <p>Descuento 0</p>
+                    <p>Cargo por servicio 0</p>
+                    <h4>Total Bs. 505</h4>
+                    <button class="btn btn-primary">Continuar Comprando</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Categorías de productos -->
+        <div class="row text-center mt-5">
+            <div class="col-md-4">
+                <img src="bombillas.jpg" alt="Bombillas y Faros" class="img-fluid">
+                <p>Bombillas y Faros</p>
+                <button class="btn btn-outline-primary">Ver</button>
+            </div>
+            <div class="col-md-4">
+                <img src="kit_embrague.jpg" alt="Kit de Embrague" class="img-fluid">
+                <p>Kit de Embrague</p>
+                <button class="btn btn-outline-primary">Ver</button>
+            </div>
+            <div class="col-md-4">
+                <img src="correas_distribucion.jpg" alt="Correas de Distribución" class="img-fluid">
+                <p>Correas de Distribución</p>
+                <button class="btn btn-outline-primary">Ver</button>
+            </div>
+        </div>
+
+        <!-- Historial de Compras -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <h4>Historial de Compras</h4>
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="bateria_historial.jpg" alt="Batería historial" class="img-fluid">
+                <p>Lorem ipsum dolor sit amet...</p>
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="kit_embrague_historial.jpg" alt="Kit Embrague historial" class="img-fluid">
+                <p>Lorem ipsum dolor sit amet...</p>
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="filtro_aceite_historial.jpg" alt="Filtro Aceite historial" class="img-fluid">
+                <p>Lorem ipsum dolor sit amet...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
